@@ -1,3 +1,60 @@
+html {
+    font-family: Consolas, monospace;
+    text-align: justify;
+}
+
 body {
     background-color: beige;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+.container p {
+    max-width: 700px;
+    width: 100%;
+}
+
+div {
+    justify-content: center;
+    align-items: center;
+}
+
+hr {
+    max-width: 710px;
+    width: 100%;
+}
+
+.hr-left {
+    margin-left: 0;
+}
+
+.img-game {
+    width: 60px;
+}
+
+.img-icon {
+    width: 30px;
+}
+
+nav {
+    background-color: #880808;
+}
+
+nav ul {
+    padding: 1rem;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+#all {
+    justify-content: center;
 }
